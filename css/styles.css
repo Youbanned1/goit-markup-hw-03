@@ -29,6 +29,10 @@ ul,ol {
     list-style-type: none;
 }
 
+button {
+    cursor: pointer; 
+}
+
 .header {
 }
 .header-nav {
@@ -40,10 +44,10 @@ ul,ol {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 .header-logo span {
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 .header-list {
 }
@@ -54,11 +58,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 
 .hero {
-    background-color: var(--navy-blue);
+    background: #2e2f42;
 }
 
 
@@ -71,7 +75,7 @@ color: var(--navy-blue);
 
 .header-item-link:hover,
 .header-item-link:focus{
-    color: var(--ocean);
+    background: #404bbf;
 }
 
 .addr-item-link {
@@ -80,12 +84,12 @@ color: var(--navy-blue);
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
 .addr-item-link:hover,
 .addr-item-link:focus{
-    color: var(--ocean);
+    color: #404bbf;
 }
 
 
@@ -97,7 +101,7 @@ font-size: 56px;
 line-height: 107%;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--white);
+color: #fff
 }
 
 button {
@@ -107,11 +111,11 @@ width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--iris);
-color: var(--white);
+color: #fff;
 }
 button:hover,
 button:focus {
-    background: var(--ocean);
+    background: #4d5ae5;;
 }
 
 
@@ -130,7 +134,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 .main-text {
     font-family: var(--font-family);
@@ -138,7 +142,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 }
 
 
@@ -151,7 +155,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 .main-text-pic {
     font-family: var(--font-family);
@@ -159,7 +163,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 }
 .main-title-second {
     font-family: var(--font-family);
@@ -167,7 +171,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 .main-title-second{
 
@@ -189,7 +193,7 @@ color: var(--navy-blue);
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
+    color: #4d5ae5;
 }
 .footer-logo span {
     color: #FFF;
@@ -201,11 +205,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: var(--cloud);
+color: #f4f4fd;
 }
  
 .hero-footer {
-    background: var(--navy-blue);
+    background: #2e2f42;
 }
 
 .footer-logo-second{
