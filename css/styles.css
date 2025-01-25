@@ -182,15 +182,6 @@ background-color:#2E2F42;
 
 
 
-h1 {
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07143;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff
-}
 
 .main-title-first{
     max-width: 496px;
@@ -202,17 +193,20 @@ color: #fff
     text-align: center;
     margin-left: auto;
     margin-right:auto;
+    font-family: var(--font-family);
+    color: #fff
     }
 
 
 .main-button{
     border-radius: 4px;
+    display: block;
     height: 56px;
-    background-color: #4D5AE5;
+    background-color:  #4d5ae5;
     cursor: pointer; 
     border: none;
     padding: 16px 32px;
-    min-width: 169px
+    min-width: 169px;
 }
  
 .main-button:hover,
