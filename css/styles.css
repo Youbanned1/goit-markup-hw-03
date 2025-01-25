@@ -231,10 +231,14 @@ background-color:#2E2F42;
 
 .main-list {
     display:flex;
-    column-gap: 24px;
+    gap: 24px;
+    margin-right: 24px;
+    margin-right: 0;
 }
 .main-item {
-    width:calc((100% - (24px *3)) / 4);
+    width: calc((100% - 72px) / 4);
+
+    
 }
 .main-title {
     font-family: var(--font-family);
