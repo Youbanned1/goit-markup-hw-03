@@ -85,6 +85,7 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex; 
     align-items: center;
     gap: 40px;
+    margin-right: 40px
 }
 .header-logo {
     margin-right: 76px;
@@ -151,8 +152,6 @@ background-color:#2E2F42;
 
 .header-addr {
     display: flex;
-    gap: 40px;
-    margin-right: 40px
 
 }
 .addr-item {
