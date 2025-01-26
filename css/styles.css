@@ -25,11 +25,12 @@ body {
  
 a {
     text-decoration: none;
+}
 img {
     display: block;
 }
 
-}
+
 ul,
 ol {
     list-style-type: none;
