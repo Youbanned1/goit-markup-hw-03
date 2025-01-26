@@ -399,7 +399,9 @@ padding-top: 8px;
 
 
 
-
+.footer{
+    padding: 100px 0;
+}
 
 .footer-logo{
     font-family: var(--second-family);
@@ -410,6 +412,8 @@ padding-top: 8px;
     text-transform: uppercase;
     color: #4d5ae5;
     padding-left: 156px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo span {
     color: #FFF;
@@ -423,6 +427,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 padding-left: 156px;
+max-width: 264px
 }
  
 .hero-footer {
@@ -443,8 +448,3 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.container-footer{
-    width: 450px;
-    height: 112px;
-    padding: 0 15px;
-}
